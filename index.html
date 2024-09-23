@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Ginebras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Ginebras</h1>
+
+<!-- Listado interactivo de ginebras -->
+<div class="ginebra-list">
+    <div class="ginebra-item" onclick="mostrarGinebra(0)">
+        <img src="https://www.campoluzenoteca.com/6644-img_ppage/gin-hendricks.jpg" alt="Hendrick's Gin">
+        <div>
+            <h3>Hendrick's Gin</h3>
+            <p>Una ginebra suave y floral con notas de pepino y pétalos de rosa.</p>
+        </div>
+    </div>
+    <div class="ginebra-item" onclick="mostrarGinebra(1)">
+        <img src="https://www.maridaevenceras.com/cdn/shop/products/sap_1024x1024.jpg?v=1610108839" alt="Bombay Sapphire">
+        <div>
+            <h3>Bombay Sapphire</h3>
+            <p>Con 10 botánicos exóticos, ideal para un gin-tonic clásico.</p>
+        </div>
+    </div>
+    <div class="ginebra-item" onclick="mostrarGinebra(2)">
+        <img src="https://vinosonline.es/10984-thickbox_default/tanqueray-70-cl.jpg" alt="Tanqueray London Dry">
+        <div>
+            <h3>Tanqueray London Dry</h3>
+            <p>Fuerte sabor a enebro y un final seco, perfecta para cócteles clásicos.</p>
+        </div>
+    </div>
+    <div class="ginebra-item" onclick="mostrarGinebra(3)">
+        <img src="https://diebal.com/wp-content/uploads/2023/03/8841.jpg" alt="Monkey 47">
+        <div>
+            <h3>Monkey 47</h3>
+            <p>Ginebra compleja y rica, hecha con 47 botánicos de la Selva Negra.</p>
+        </div>
+    </div>
+    <div class="ginebra-item" onclick="mostrarGinebra(4)">
+        <img src="https://m.media-amazon.com/images/I/71cndzydaQS.jpg" alt="Beefeater London Dry">
+        <div>
+            <h3>Beefeater London Dry</h3>
+            <p>Clásica y reconocida, con notas frescas de enebro y cítricos.</p>
+        </div>
+    </div>
+    <div class="ginebra-item" onclick="mostrarGinebra(5)">
+        <img src="https://vinosconsolera.com/wp-content/uploads/the-botanist-gin-1.jpg" alt="The Botanist">
+        <div>
+            <h3>The Botanist</h3>
+            <p>Artesanal y refrescante, con 22 hierbas locales de la isla de Islay.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal (Pop-up) -->
+<div id="ginebraModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2 id="ginebraNombre">Nombre de la Ginebra</h2>
+        <p id="ginebraDescripcion">Descripción detallada de la ginebra.</p>
+        <p><strong>Notas de cata:</strong> <span id="ginebraNotas"></span></p>
+        <p><strong>País de origen:</strong> <span id="ginebraPais"></span></p>
+        <p><strong>Grados:</strong> <span id="ginebraGrados"></span></p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Carta de Ginebras - Bugatti Pub Peris
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
