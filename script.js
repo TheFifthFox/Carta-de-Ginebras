@@ -19,7 +19,7 @@ const ginebras = [
         descripcion: "Una de las ginebras más clásicas y apreciadas del mundo. Con un fuerte sabor a enebro y un final seco, es la favorita para cócteles tradicionales.",
         notas: "Enebro intenso, pimienta, cilantro",
         pais: "Reino Unido",
-        grados: "41,4",
+        grados: "43,1",
     },
     {
         nombre: "Brockmans Gin",
@@ -33,7 +33,7 @@ const ginebras = [
         descripcion: "Una ginebra robusta con un claro perfil de enebro y cítricos. Clásica y tradicional, es la opción ideal para cócteles con historia.",
         notas: "Enebro, limón, naranja amarga",
         pais: "Reino Unido",
-        grados: "41,4º",
+        grados: "40",
     },
     {
         nombre: "Rives Gin Special",
